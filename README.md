@@ -14,4 +14,6 @@ Projek ini dipergunakan untuk test kerja saya di Fast Print. Tech stack yang dig
 - docker compose run web python manage.py makemigrations
 - docker compose run web python manage.py migrate
 5. Lalu, untuk mengisi data di table dimana data didapatkan melalui API yang telah disediakan di soal, jalankan command berikut di cmd/terminal
-- docker compose run web python manage.py sync_api
+```bash
+docker compose run web python manage.py sync_api
+```
