@@ -34,3 +34,7 @@ docker compose up --build
 
 7. Apabila sudah muncul keterangan aplikasi sudah berjalan di cmd/terminal, buka browser dan masukkan
    `http://localhost:8000` dan cek apakah aplikasi sudah bisa berjalan dan muncul di browser
+
+### Dokumentasi
+
+menyusul
