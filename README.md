@@ -20,20 +20,22 @@ docker compose run web python manage.py makemigrations
 docker compose run web python manage.py migrate
 ```
 
-5. Lalu, untuk mengisi data di table dimana data didapatkan melalui API yang telah disediakan di soal, jalankan command berikut di cmd/terminal
-
-```bash
-docker compose run web python manage.py sync_api
-```
-
-6. Jalankan project dengan command berikut
+5. Jalankan project dengan command berikut
 
 ```bash
 docker compose up --build
 ```
 
-7. Apabila sudah muncul keterangan aplikasi sudah berjalan di cmd/terminal, buka browser dan masukkan
-   `http://localhost:8000` dan cek apakah aplikasi sudah bisa berjalan dan muncul di browser
+Tunggu hingga muncul tulisan `Listening on http://0.0.0.0:8000`.
+
+6. Lalu, untuk mengisi data di table dimana data didapatkan melalui API yang telah disediakan di soal, jalankan command berikut di cmd/terminal
+
+```bash
+docker compose run web python manage.py sync_api
+```
+
+7. Selanjutnya, buka browser dan masukkan
+   [http://localhost:8000](http://localhost:8000) dan cek apakah aplikasi sudah bisa berjalan dan muncul di browser
 
 ### Dokumentasi
 
