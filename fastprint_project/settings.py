@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.environ.get('DATABASE_NAME', 'fastprintdb'),
         'USER': os.environ.get('DATABASE_USER', 'fastprintuser'),
-        'PASSWORD': os.environ.get('DATABASE_PASSWORD', 'rahasia'),
+        'PASSWORD': os.environ.get('DATABASE_PASSWORD', 'fastprintpassword'),
         'HOST': os.environ.get('DATABASE_HOST', 'db'),
         'PORT': os.environ.get('DATABASE_PORT', '5432'),
     }
