@@ -39,4 +39,4 @@ docker compose run web python manage.py sync_api
 
 ### Dokumentasi
 
-menyusul
+Untuk dokumentasi berupa video, bisa diakses [https://youtu.be/CZVnBjFdPXo](disini).
